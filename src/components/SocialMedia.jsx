@@ -5,12 +5,16 @@ const SocialMedia = () => {
   return (
     <div className="app__social">
       <div>
-        <a href="https://twitter.com/deads17_HS" target="_blank">
+        <a
+          href="https://twitter.com/deads17_HS"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsTwitter />
         </a>
       </div>
       <div>
-        <a href="https://github.com/tuiskuk" target="_blank">
+        <a href="https://github.com/tuiskuk" target="_blank" rel="noreferrer">
           <BsGithub />
         </a>
       </div>
@@ -18,6 +22,7 @@ const SocialMedia = () => {
         <a
           href="https://www.linkedin.com/in/tuisku-kaikuvuo-7b9016163/"
           target="_blank"
+          rel="noreferrer"
         >
           <BsLinkedin />
         </a>
